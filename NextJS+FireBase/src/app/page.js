@@ -21,7 +21,7 @@ import { auth } from "../config";
         if (user) {
           const token = await user.getIdToken();
     
-          const response = await fetch("http://localhost:8000/todos/", {
+          const response = await fetch("https://to-do-assigment-c5vd-e1xj4tnod-sachinkulkarni91s-projects.vercel.app/todos/", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
