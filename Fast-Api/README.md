@@ -2,6 +2,7 @@ This is a backend application for a Todo management system built with FastAPI. T
 
 
 Table of Contents
+
 Installation
 Setup
 Running the Application
