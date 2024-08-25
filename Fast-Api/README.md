@@ -24,11 +24,8 @@ Create and Activate Virtual Environment
 On macOS and Linux:
 
 
-python3 -m venv venv
-source venv/bin/activate
+
 On Windows:
-
-
 python -m venv venv
 venv\Scripts\activate
 Install Dependencies
