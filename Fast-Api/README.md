@@ -14,7 +14,6 @@ Installation
 To get started with the FastAPI backend, you need to set up your development environment.
 
 Prerequisites
-Python 3.7+
 Virtual environment tool (venv or virtualenv)
 Firebase account and Firebase Admin SDK JSON credentials
 Clone the Repository
