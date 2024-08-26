@@ -21,7 +21,7 @@ import { auth } from "../config";
         if (user) {
           const token = await user.getIdToken();
     
-          const response = await fetch("https://to-do-assigment-c5vd-e1xj4tnod-sachinkulkarni91s-projects.vercel.app/todos/", {
+          const response = await fetch("http://localhost:8000/todos/", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -68,7 +68,7 @@ async function deleteTodo(todoId){
   
       const token = await user.getIdToken();
   
-      const response = await fetch(`https://to-do-assigment-c5vd-e1xj4tnod-sachinkulkarni91s-projects.vercel.app/${todoId}`, {
+      const response = await fetch(`http://localhost:8000/todos/${todoId}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
@@ -98,7 +98,7 @@ export async function updateToDo(todoId, updatedTodo) {
 
     const token = await user.getIdToken();
 
-    const response = await fetch(`https://to-do-assigment-c5vd-e1xj4tnod-sachinkulkarni91s-projects.vercel.app/${todoId}`, {
+    const response = await fetch(`http://localhost:8000/todos/${todoId}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
