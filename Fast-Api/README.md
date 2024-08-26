@@ -38,12 +38,11 @@ Configure Firebase Credentials
 Go to the Firebase console and navigate to the Service Accounts section.
 Generate a new private key and download the JSON credentials file.
 Save this file in your project directory as firebase_credentials.json.
-Environment Variables
-Create a .env file in the root of your project to store environment variables:
+
 
 
 FIREBASE_CREDENTIALS_PATH=firebase_credentials.json
-Make sure to replace the path with the location of your Firebase credentials file if it differs.
+Make sure to replace the path with the location of your Firebase credentials file that you dowload
 
 Running the Application
 To run the FastAPI application locally, execute the following command:
